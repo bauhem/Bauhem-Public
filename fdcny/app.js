@@ -4,7 +4,7 @@ $(function() {
     $('#phoneNumber').intlTelInput({
         responsiveDropdown: true,
         autoFormat: true,
-        utilsScript: '/utils.js'
+        utilsScript: 'https://cdn.rawgit.com/bauhem/Bauhem-Public/056f5b94/fdcny/utils.js'
     });
 
     // Intercept form submission and submit the form with ajax
