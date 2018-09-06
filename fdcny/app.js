@@ -4,7 +4,7 @@ $(function() {
     $('#phoneNumber').intlTelInput({
         responsiveDropdown: true,
         autoFormat: true,
-        utilsScript: '/static/js/libphonenumber/src/utils.js'
+        utilsScript: '/utils.js'
     });
 
     // Intercept form submission and submit the form with ajax
