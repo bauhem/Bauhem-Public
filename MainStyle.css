@@ -78,7 +78,7 @@ body {
 }
 
 .LoginDiv {
-	background-color: lightgray !important;
+	background-color: #82a432 !important;
 	overflow: hidden;
 	width: calc(100% - 100px);
 	padding: 50px;
