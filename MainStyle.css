@@ -1,0 +1,1477 @@
+body {
+	font-size: 12px;
+	margin: 0;
+	font-family: Arial;
+}
+
+.DocTitle {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: justify;
+	letter-spacing: 0.045em;
+	text-transform: uppercase;
+}
+
+.DocMain {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.DocMainSmall {
+	font-size: 11px;
+}
+
+.RightAlignCell {
+	text-align: right;
+}
+
+.BoxButton {
+	border: 1px solid white !important;
+	color: #fff !important;
+	background-image: none !important;
+	border-radius: 0 !important;
+	background-color: black !important;
+	text-transform: uppercase;
+	width: 200px !important;
+	height: 44px !important;
+	font-size: 13px !important;
+	/*font-weight: 600 !important;*/
+	letter-spacing: 0.2em;
+}
+
+	.BoxButton:hover {
+		border-color: white !important;
+		color: black !important;
+		background-color: white !important;
+	}
+
+
+.PageTitleDiv {
+	padding-bottom: 20px;
+}
+
+
+.OptinContainer {
+}
+
+.OptinHeader {
+	display: none;
+}
+
+.OptinFieldDiv {
+	float: left;
+	padding-right: 25px;
+}
+
+.OptinButtonDiv {
+	float: left;
+}
+
+.OptinTextBox {
+	width: 200px !important;
+	height: 40px !important;
+}
+
+/* SECTION IDENTIFICATION */
+.LoginTitleDiv {
+	display: none;
+}
+
+.LoginDiv {
+	background-color: lightgray !important;
+	overflow: hidden;
+	width: calc(100% - 100px);
+	padding: 50px;
+}
+
+.LoginBoxLeft {
+	width: 47%;
+	border: none;
+	float: left;
+	margin-right: 5%;
+	display: block;
+}
+
+.LoginBoxRight {
+	width: 47%;
+	border: none;
+	float: left;
+	display: block;
+}
+
+.LoginLeftPicture {
+	width: 100%;
+	display: block;
+}
+
+.LoginBoxPictureLeft {
+	background-image: none;
+}
+
+.LoginBoxPictureRight {
+	background-image: none;
+}
+
+.LoginBoxTitleDiv {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.LoginBoxTitle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	text-align: center;
+}
+
+.LoginTitle {
+	text-align: center;
+	font-size: 3.8vw;
+	color: white;
+	width: 700px;
+}
+
+.LoginBoxFieldLabel {
+	float: left;
+	width: 150px;
+	font-size: 14px;
+}
+
+.LoginBoxFieldBox {
+	width: 250px !important;
+	background-color: lightgray !important;
+	color: black !important;
+	height: 45px !important;
+	font-size: 16px !important;
+	border: none !important;
+	border-bottom: 1px solid white !important;
+}
+
+.LoginBoxFieldBoxWrapper {
+	width: 250px !important;
+}
+
+
+.LoginBoxEditor {
+	margin: 0.5em 0 0 0;
+}
+
+
+.LoginBoxPasswordForgotten {
+	padding-top: 12px;
+}
+
+	.LoginBoxPasswordForgotten a {
+		font-size: 10px;
+		margin-left: 0;
+		color: black;
+	}
+
+.LoginBoxRemberMe {
+	clear: both;
+	font-size: 10px;
+	padding-top: 12px;
+	margin-left: -3px;
+	color: black;
+}
+
+.LoginBoxButton {
+	margin-top: 35px;
+	width: 100%;
+}
+
+.LoginButton {
+	border-color: black !important;
+	color: black !important;
+	background-image: none !important;
+	border-radius: 0 !important;
+	background-color: lightgray !important;
+	text-transform: uppercase;
+	width: 200px !important;
+	height: 40px !important;
+	font-size: 13px !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.2em;
+}
+
+	.LoginButton:hover {
+		color: black !important;
+		background-color: white !important;
+	}
+
+.LoginError {
+	color: white;
+}
+
+/* Fin de IDENTIFICATION */
+
+/* RENDEZ-VOUS */
+
+.OnlineAppointmentWizard {
+	font-size: 16px !important;
+	background-color: transparent !important;
+	border: 1px solid #AB0432;
+}
+
+.OnlineAppointmentService {
+	padding: 5px 5px 5px 10px;
+	border: 1px solid red;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.OnlineAppointmentSupplierPicture {
+	height: 100px;
+	width: 100px;
+}
+
+.OnlineAppointmentButton {
+	background-image: none !important;
+	background-color: #14afca !important;
+	width: 95px !important;
+	text-align: center !important;
+}
+
+	.OnlineAppointmentButton .rbDecorated {
+		background-image: none !important;
+		color: white !important;
+	}
+
+.OnlineAppointmentSelectButton {
+	background: url(/Images/Navigation/Check.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.OnlineAppointmentSelectButtonHover {
+	background: url(/Images/Navigation/Check.png) !important;
+	background-position: 0 0;
+	background-repeat: no-repeat !important;
+	width: 32px;
+	height: 32px;
+}
+
+.OnlineAppointmentServiceName {
+	font-size: 18px;
+	color: darkslategray;
+}
+
+.OnlineAppointmentServicePrice {
+	font-size: 18px;
+	color: darkslategray;
+}
+
+.OnlineAppointmentSupplierName {
+	font-size: 24px;
+	color: darkslategray;
+}
+
+.OnlineAppointmentSupplierTitle {
+	font-size: 16px;
+	color: darkslategray;
+}
+
+.OnlineAppointmentSummaryCellTitle {
+	background-color: #14afca;
+	color: white;
+	padding: 5px 9px 5px 5px;
+	width: 250px;
+}
+
+.OnlineAppointmentSummaryCellValue {
+	background-color: #14afca;
+	color: white;
+	padding: 5px 25px 5px 5px;
+}
+
+.OnlineAppointmentScheduleDay {
+	float: left;
+	width: 16.5%;
+}
+
+
+/*FIN DE RENDEZ-VOUS*/
+
+/* HORAIRE QUOTIDIEN */
+.DailyScheduleContainer {
+	width: 100%;
+	background: #362f2d;
+	overflow: hidden;
+}
+
+.DailyScheduleContent {
+	display: table;
+	margin: 0 auto;
+	background: #362f2d;
+	height: 100px;
+	/*position: relative;*/
+	padding-top: 60px;
+}
+
+.RotSchedule {
+	width: 897px !important;
+	height: 160px !important;
+}
+
+.DailyTitleDiv {
+	float: left;
+	border-right: 2px solid #E44626;
+	padding-right: 20px;
+	/*padding-left: 45px;*/
+	height: 85px;
+	width: 130px;
+	margin-top: 17px;
+	margin-right: 25px;
+}
+
+.DailyTitle {
+	color: #E44626;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 28px;
+	text-align: right;
+}
+
+.DailyScheduleDiv {
+	float: left;
+	/*width: calc(100% - 590px);*/
+}
+
+.DailyScheduleItem {
+	padding: 26px 20px 14px 20px;
+	width: 200px;
+}
+
+.DailyScheduleTime {
+	color: white;
+	font-size: 16px;
+}
+
+.DailyScheduleClassName {
+	color: white;
+	font-size: 16px;
+}
+
+
+.DailyScheduleTeacher {
+	color: white;
+	font-size: 16px;
+}
+
+
+.DailyRightButtonDiv {
+	width: 33px;
+	float: left;
+	padding-top: 27px;
+	padding-left: 30px;
+}
+
+
+.DailyButtonDiv {
+	float: left;
+	padding-left: 30px;
+	padding-top: 35px;
+	overflow: hidden;
+}
+
+.FullScheduleButton {
+	background-color: #362f2d !important;
+}
+
+
+/* HORAIRE COMPLET */
+
+.ScheduleContainer {
+	margin-top: 20px;
+}
+
+
+.ScheduleHeader {
+	text-align: left;
+	font-weight: bold;
+}
+
+.ScheduleItem {
+	text-align: left;
+}
+
+.ScheduleWeekLabel {
+	font-size: 18px;
+}
+
+.ScheduleArrows {
+	float: right;
+}
+
+.ScheduleDateLabel {
+	font-size: 14px;
+}
+
+.ScheduleTime {
+	width: 38px;
+}
+
+.ScheduleClassName {
+	width: 350px;
+}
+
+
+.DayHeader {
+	padding-left: 2px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+}
+
+
+.SchedulePreviousButton {
+	background: url(/Images/Navigation/ButtonPrevious.png);
+	background-repeat: no-repeat !important;
+	width: 24px;
+	height: 24px;
+}
+
+.SchedulePreviousButtonHovered {
+	background: url(/Images/Navigation/ButtonPreviousHover.png);
+	background-repeat: no-repeat !important;
+}
+
+
+.SchedulePreviousButtonPressed {
+	background-repeat: no-repeat !important;
+}
+
+.ScheduleTodayButton {
+	/*background: url(/Images/Navigation/ButtonToday.png);
+	background-repeat: no-repeat !important;
+	width: 24px;
+	height: 24px;*/
+	background-image: none !important;
+	font-size: 16px;
+}
+
+	.ScheduleTodayButton.rbSkinnedButton, .ScheduleTodayButton.rbdecorated {
+		background-image: none !important;
+		font-size: 16px !important;
+	}
+
+.RadButton_Default .rbDecorated {
+	background-image: none !important;
+}
+
+.ScheduleTodayButtonHovered {
+	/*background: url(/Images/Navigation/ButtonTodayHover.png);
+	background-repeat: no-repeat !important;
+	width: 24px;
+	height: 24px;*/
+}
+
+
+.ScheduleTodayButtonPressed {
+	/*background-repeat: no-repeat !important;
+	width: 24px;
+	height: 24px;*/
+}
+
+.ScheduleNextButton {
+	background: url(/Images/Navigation/ButtonNext.png);
+	background-repeat: no-repeat !important;
+	width: 24px;
+	height: 24px;
+}
+
+.ScheduleNextButtonHovered {
+	background: url(/Images/Navigation/ButtonNextHover.png);
+	background-repeat: no-repeat !important;
+}
+
+.ScheduleNextButtonPressed {
+	background-repeat: no-repeat !important;
+}
+
+.PreviousButtonDiv {
+	float: left;
+	padding-right: 15px;
+}
+
+.TodayButtonDiv {
+	float: left;
+	padding-right: 15px;
+}
+
+.NextButtonDiv {
+	float: left;
+}
+
+.ScheduleWarmClassLogo {
+	background-image: url(/Images/Layout/WarmClass.svg) !important;
+	background-repeat: no-repeat;
+	border: none !important;
+	background-color: transparent !important;
+	width: 12px;
+	height: 9px;
+}
+
+.RegisterButtonImage {
+	background: url(/Images/Navigation/Add.png);
+	background-repeat: no-repeat !important;
+	width: 14px;
+	height: 16px;
+}
+
+.RegisterButtonHovered {
+	background-repeat: no-repeat !important;
+	width: 14px;
+	height: 16px;
+}
+
+
+.RegisterButtonPressed {
+	background: url(/Images/Navigation/CartAdd.png);
+	background-repeat: no-repeat !important;
+	width: 14px;
+	height: 16px;
+}
+
+
+/* BOUTIQUE */
+
+
+.TaxLabelDiv {
+	padding-top: 15px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.AddToCartButtonImage {
+	background: url(/Images/Navigation/CartAdd.png);
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+}
+
+.AddToCartButtonHovered {
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+}
+
+.AddToCartButtonPressed {
+	background: url(/Images/Navigation/Add.png);
+	background-repeat: no-repeat !important;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+}
+
+.CartDeleteButtonDiv {
+	float: left;
+	padding: 10px 15px 0 0;
+	vertical-align: middle;
+}
+
+.CartDeleteButton {
+	background: none !important;
+	color: black !important;
+	font-weight: bold;
+}
+
+	.CartDeleteButton .rbDecorated {
+		background: none !important;
+		color: black !important;
+	}
+
+.CartProduct {
+	float: left;
+}
+
+.CartPrice {
+	float: right;
+}
+
+.CartPayButtonDiv {
+	margin-top: 35px;
+	width: 97%;
+	padding-left: 8px;
+}
+
+.CartPayButtonHolder {
+	float: right;
+}
+
+.CartPageTitleDiv {
+	display: none;
+}
+
+.Cancelled {
+	text-decoration: line-through;
+}
+
+.StoreBackground {
+	overflow: hidden;
+	padding-bottom: 35px;
+}
+
+.StoreButtonContainer {
+	float: left;
+	padding: 0 7px 0 0;
+}
+
+.StoreMenuDiv {
+	padding-bottom: 45px;
+	overflow: hidden;
+}
+
+
+.StoreMenu .rmRootGroup {
+	background-image: none !important;
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.StoreMenu .rmText {
+	font-size: 16px !important;
+	text-transform: uppercase;
+	padding-right: 4px !important;
+}
+
+.StoreMenu .rmFirst .rmLink {
+	padding-left: 0 !important;
+}
+
+.StoreMenu .rmLink {
+	background-image: none !important;
+}
+
+.StoreMenu .rmSelected .rmText {
+	color: red !important;
+}
+
+.StoreButton {
+	font-family: Arial !important;
+	font-size: 16px !important;
+	background-color: transparent !important;
+	padding: 0 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	background-image: none !important;
+}
+
+
+	.StoreButton .rbText {
+		padding-left: 0 !important;
+	}
+
+
+.StoreOptions {
+	float: left;
+	padding: 1px 12px 0 2px;
+	border-right: 1px solid;
+	margin-right: 6px;
+}
+
+.ProductOuterDiv {
+	background-color: white;
+	padding: 3px 3px 3px 3px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	border-style: solid;
+	-moz-box-shadow: 3px 3px 3px #ccc;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px #ccc;
+	width: 97%;
+}
+
+.ProductDiv {
+	padding: 8px 8px 8px 8px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.ProductGroupHeader {
+	font-size: 18px;
+	padding-bottom: 6px;
+	text-transform: uppercase;
+}
+
+.ProductGroupFooter {
+	margin-top: -9px;
+	padding-bottom: 16px;
+}
+
+.ProductTitle {
+	float: left;
+	width: 70%;
+	font-size: 15px;
+}
+
+.ProductPrice {
+	float: right;
+	width: 20%;
+	text-align: right;
+	font-size: 14px;
+}
+
+.ProductDiscount {
+	width: 250px;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 2px;
+	float: left;
+}
+
+.ProductNotes {
+	float: left;
+	width: 77%;
+	font-size: 12px;
+	padding-top: 8px;
+	/*margin-top: -20px;*/
+}
+
+.ProductButton {
+	float: right;
+	width: 23%;
+	text-align: right;
+	padding-top: 2px;
+	/*margin-top: -28px;*/
+}
+
+.ProductPictureDiv {
+	width: 120px;
+	float: left;
+	padding: 15px 20px 0 15px;
+}
+
+.ProductContentDiv {
+	padding-top: 10px;
+	float: left;
+	width: calc(100% - 155px);
+}
+
+.ProductPicture {
+	width: 120px;
+}
+
+.WorkshopTitle {
+	width: 510px;
+	font-size: 18px;
+	float: left;
+	text-transform: uppercase;
+	padding-bottom: 6px;
+}
+
+.WorkshopWith {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.WorkshopDateTime {
+	font-size: 12px;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.WorkshopDescription {
+	clear: both;
+	font-size: 14px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.WorkshopPictureDiv {
+	width: 200px;
+	float: left;
+	padding: 15px 20px 0 15px;
+}
+
+.WorkshopContentDiv {
+	padding-top: 10px;
+	float: left;
+	width: calc(100% - 235px);
+}
+
+.WorkshopPicture {
+	width: 200px;
+}
+
+.WorkshopRegisterDiv {
+	margin-top: 5px;
+}
+
+.WorkshopRegisterLbl {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.WorkshopRegisterWarning {
+	font-size: 12px;
+}
+
+.WorkshopRegisterButton {
+	margin-top: 0;
+}
+
+.CertificateBeneficiaryLabel {
+	font-size: 14px;
+}
+
+.CheckOutContainerDiv {
+	display: table;
+	table-layout: fixed;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.CheckOutPaymentDiv {
+	display: table-cell;
+	height: 100%;
+	vertical-align: top;
+	width: 400px;
+	padding: 25px 25px 25px 25px;
+}
+
+.CheckOutCartDiv {
+	display: table-cell;
+	vertical-align: top;
+	width: calc(100% -450px);
+	height: 100%;
+	padding: 25px 25px 25px 25px;
+}
+
+.CheckOutTitleDiv {
+	padding-left: 20px;
+}
+
+.CheckOutPaymentLabel {
+	font-size: 14px;
+}
+
+.CheckOutPaymentLabelColumn {
+	width: 187px;
+}
+
+.CheckOutCartLabelColumn {
+	width: 287px;
+}
+
+.CheckOutCartPrice {
+	text-align: right;
+	width: 110px;
+}
+
+.CheckoutLink {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+	.CheckoutLink .visited {
+		text-decoration: none !important;
+	}
+
+	.CheckoutLink a.hover {
+		text-decoration: none !important;
+	}
+
+	.CheckoutLink .static {
+		text-decoration: none !important;
+	}
+
+	.CheckoutLink a.hover {
+		text-decoration: none !important;
+	}
+
+	.CheckoutLink .rbText {
+		font-size: 16px;
+		font-family: Arial;
+	}
+
+
+.CheckoutBoxTitle {
+	padding-bottom: 6px;
+	font-size: 16px;
+}
+
+.CheckoutTable {
+	width: 450px;
+}
+
+	.CheckoutTable td {
+		padding: 1px;
+	}
+
+.CheckoutPayButtonDiv {
+	float: left;
+	padding-top: 22px;
+}
+
+.CheckoutButton {
+	width: 260px !important;
+}
+
+.CheckOutErrorMessage {
+	color: red;
+}
+
+.CheckOutPaymentTextBox {
+	background-color: white;
+	color: #474642;
+	height: 35px !important;
+	width: 200px !important;
+}
+
+.CheckOutPaymentTextBoxWrapper {
+	width: 200px !important;
+}
+
+.CheckOutPaymentDropDown {
+	width: 198px !important;
+	border: 1px solid #e0e0e0 !important;
+}
+
+.RadDropDownList_MetroTouch .rddlInner {
+	background-color: white !important;
+	color: black !important;
+	border-color: white !important;
+	padding-left: 4px !important;
+}
+
+.mGrid {
+	background-color: transparent;
+	border: none;
+	margin: 5px 0 10px 0;
+	width: 100%;
+}
+
+	.mGrid table {
+		border: none;
+		margin-left: 0;
+	}
+
+	.mGrid td {
+		border: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 9pt;
+		padding: 0 10px 0 0;
+	}
+
+	.mGrid th {
+		border: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 9pt;
+		padding: 2px 5px 2px 0;
+		text-align: left;
+	}
+
+	.mGrid .footer {
+		background: white none repeat scroll 0 0;
+		font-family: Arial;
+		font-size: 12px;
+		padding: 6px 5px 6px 0;
+	}
+
+	.mGrid .mGridPgr table {
+		margin: 5px 0 0 -3px;
+	}
+
+	.mGrid .mGridPgr td {
+		border: 0 none;
+		font-family: Arial;
+		font-weight: bold;
+		line-height: 12px;
+		padding: 0 6px 0 0;
+	}
+
+	.mGrid .mGridPgr a {
+		text-decoration: none;
+	}
+
+		.mGrid .mGridPgr a:hover {
+			text-decoration: none;
+		}
+
+
+
+
+
+.LockDiv {
+	margin-top: 25px;
+	overflow: auto;
+}
+
+.LockImageDiv {
+	float: left;
+	width: 24px;
+}
+
+.LockImage {
+	width: 24px;
+}
+
+.LockLabelDiv {
+	font-size: 10px;
+	margin-left: 39px;
+}
+
+.PageTitle {
+	font-size: 42px;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+}
+
+.PageInstructions {
+	font-size: 10px;
+}
+
+.BoxShape {
+	padding: 1px !important;
+}
+
+/* SECTION MEMBRES */
+
+.MbrHeaderContainer {
+	width: 100%;
+}
+
+.MbrContainer {
+	background-color: white;
+	padding: 25px;
+	width: 100%;
+	height: 1px;
+	min-height: 500px;
+}
+
+
+.MbrMenuContainer {
+	padding-top: 10px;
+}
+
+.MbrBodyContainer {
+	clear: both;
+	padding-top: 10px;
+}
+
+.MbrTitleContainer {
+	padding-top: 14px;
+	padding-bottom: 15px;
+}
+
+.MbrListContainer {
+}
+
+.MbrWelcomeTitle {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.MbrInstructions {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.MbrChangePasswordLabel {
+	font-size: 16px;
+	padding-bottom: 8px;
+}
+
+.MbrChangePasswordField {
+	padding-bottom: 16px;
+}
+
+.MbrChangePasswordButton {
+	padding-top: 10px;
+}
+
+.MbrFieldWidth {
+	width: 240px !important;
+}
+
+.MbrPasswordMessage {
+	font-size: 16px;
+}
+
+.MbrButton {
+	font-family: Arial !important;
+	font-size: 16px !important;
+	background-color: transparent !important;
+	padding: 0 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	background-image: none !important;
+}
+
+
+.MemberMenu {
+	text-transform: uppercase;
+}
+
+	.MemberMenu .rmRootGroup .rmRootLink {
+		padding: 4px 20px 4px 0;
+		line-height: 20px;
+	}
+
+		.MemberMenu .rmRootGroup .rmRootLink .rmToggle {
+			height: 20px;
+		}
+
+.RadMenu_Sunset .rmItem {
+	font-size: 14px !important;
+}
+
+.RadMenu_Sunset .rmLink {
+	font-size: 14px !important;
+}
+
+.RadMenu_Sunset .rmRootGroup {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+	.RadMenu_Sunset .rmRootGroup .rmSelected > .rmRootLink, .RadMenu_Sunset .rmRootGroup .rmExpanded > .rmRootLink {
+		background-color: transparent !important;
+		background-image: none !important;
+		border-color: transparent !important;
+	}
+
+.RadMenu .rmRootGroup.rmHorizontal > .rmItem, .RadMenu .rmRootGroup.rmHorizontal > .rmRootScrollGroup > .rmItem {
+	border-style: none;
+	border-width: 0 !important;
+}
+
+.RadMenu_Sunset .rmRootGroup .rmRootLink:hover {
+	background-color: transparent !important;
+	background-image: none !important;
+	border-color: transparent !important;
+}
+
+.RadMenu_Sunset .rmRootGroup .rmFocused > .rmLink {
+	border-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.DisconnectButton {
+	font-family: Arial, Arial, Helvetica, sans-serif !important;
+	font-weight: bold;
+	font-size: 12px !important;
+	background-color: transparent !important;
+	border: none !important;
+	padding: 0 !important;
+	background-image: none !important;
+}
+
+.ModalProgress {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -420px;
+	left: 335px;
+}
+
+.SessionAgreement {
+	margin-top: 15px;
+}
+
+
+.SessionRadioButtonList .rbText {
+	font-family: Arial;
+	color: #6c3f37 !important;
+	font-size: 13px !important;
+	text-transform: uppercase;
+}
+
+	.SessionRadioButtonList .rbText::before {
+		color: #6c3f37 !important;
+	}
+
+.SessionRadioButtonList .rbToggleRadio::before, .rbToggleRadioChecked::before {
+	top: 3px !important;
+}
+
+.SessionRadioButtonList .rbVerticalList + .rbVerticalList {
+	margin-left: 25px !important;
+}
+
+
+@media only screen and (max-width: 1460px) {
+	.RotSchedule {
+		width: 677px !important;
+	}
+}
+
+@media only screen and (max-width: 1190px) {
+	.RotSchedule {
+		width: 457px !important;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1220px) {
+	/*.RadInput_Default
+    {
+    width: 125px !important;
+    }*/
+
+
+	/*.CheckOutPaymentTextBox, .CheckOutPaymentTextBoxWrapper {
+		width: 200px !important;
+	}
+
+	.CheckOutPaymentDropDown {
+		width: 125px;
+	}*/
+}
+
+@media only screen and (min-width: 80px) and (max-width: 414px) {
+
+	.OptinContainer {
+		padding: 15px;
+	}
+
+	.OptinTextBox {
+		width: 100% !important;
+	}
+
+	.OptinButton {
+		width: 100% !important;
+	}
+
+	.PageTitle {
+		font-size: 18px !important;
+	}
+
+	.ProductPrice {
+		font-size: 12px;
+		padding-top: 3px;
+	}
+
+	.ProductDiv {
+		padding: 8px;
+	}
+
+	.CartProductDiv {
+		padding-left: 0px;
+	}
+
+	.CartProduct {
+		width: 65%;
+	}
+
+	.CartPayButtonHolder {
+		float: none;
+		text-align: center;
+	}
+
+	.ProductOuterDiv {
+		padding: 0;
+		width: calc(100% - 12px);
+	}
+
+	.ProductPictureDiv {
+		padding: 0 8px 0 0;
+		width: 100px;
+	}
+
+	.ProductPicture {
+		width: 100px;
+	}
+
+	.ProductContentDiv {
+		width: calc(100% - 110px);
+	}
+
+	.ProductNotes {
+		width: 100%;
+	}
+
+	.ProductGroupHeader {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+
+	.ProductButton {
+		width: 100%;
+		padding-top: 4px;
+		margin-top: 0px;
+	}
+
+
+
+	.CheckOutContainerDiv {
+		display: block;
+	}
+
+	.CheckOutPaymentDiv {
+		display: block;
+		width: calc(100% - 30px);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.CheckOutCartDiv {
+		display: block;
+		width: calc(100% - 30px);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.CheckoutTable {
+		width: 100%;
+	}
+
+	.CheckOutPaymentLabelColumn {
+		width: 45%;
+	}
+
+	.CheckOutPaymentDropDown {
+		/*width: calc(100% - 2px) !important;*/
+	}
+
+	.CheckOutPaymentTextBox {
+		width: 100% !important;
+	}
+
+	.CheckOutPaymentLabel {
+		font-size: 11px;
+	}
+
+	.CheckoutPayButtonDiv {
+		float: none;
+		text-align: center;
+	}
+
+	.StoreOptions {
+		float: none;
+		border-right: none;
+	}
+
+	.StoreMenuDiv {
+		padding: 0 10px 15px 10px;
+	}
+
+	.ScheduleRoomColumn {
+		display: none;
+	}
+
+	.ScheduleTeacherColumn {
+		display: none;
+	}
+
+	.ScheduleProgramColumn {
+		display: none;
+	}
+
+	.ScheduleExpirationColumn {
+		display: none;
+	}
+
+	.ScheduleWeekLabel {
+		font-size: 16px;
+	}
+
+	.ScheduleArrows {
+		float: left;
+	}
+
+	.MemberMenu .rmRootGroup .rmRootLink {
+		padding: 4px 10px 4px 0;
+	}
+
+	.RadMenu_Sunset .rmItem, .rmLink {
+		font-size: 11px !important;
+	}
+
+	.RadMenu_Sunset .rmLink {
+		font-size: 11px !important;
+	}
+
+	.WorkshopTitle {
+		font-size: 14px;
+	}
+
+	.WorkshopDescription {
+		font-size: 12px;
+	}
+
+	.WorkshopPictureDiv {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+
+	.WorkshopContentDiv {
+		padding: 0px;
+		float: none;
+		width: 100%;
+	}
+
+	.WorkshopPicture {
+		width: 100%;
+	}
+
+	.LoginBoxFieldBox {
+		width: 100% !important;
+	}
+
+	.LoginBoxFieldBoxWrapper {
+		width: 100% !important;
+	}
+
+
+	.LoginBoxPasswordForgotten a {
+		margin-left: 0;
+		float: none;
+		margin-top: 4px;
+	}
+
+	.LoginBoxRemberMe {
+		clear: both;
+		padding-top: 5px;
+		margin-left: -4px;
+		float: none;
+	}
+
+
+	.LoginDiv {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.LoginTitle {
+		font-size: 35px;
+	}
+
+	.LoginBoxLeft {
+		width: 100%;
+		border: none;
+		float: none;
+		margin-right: 0;
+		display: block;
+		max-width: 740px;
+	}
+
+	.LoginBoxRight {
+		width: 100%;
+		border: none;
+		float: none;
+		margin-right: 0;
+		display: block;
+		max-width: 740px;
+	}
+
+	.LoginBoxInfoDiv {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.LoginBoxButton {
+		text-align: center;
+	}
+}
