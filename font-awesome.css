@@ -3,8 +3,8 @@
  *  the iconic font designed for Bootstrap
  *  ------------------------------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation can be
- *  found at http://fontawesome.io.  Stay up to date on Twitter at
- *  http://twitter.com/fontawesome.
+ *  found at http://FontAwesome1.io.  Stay up to date on Twitter at
+ *  http://twitter.com/FontAwesome1.
  *
  *  License
  *  ------------------------------------------------------------------------------
@@ -15,11 +15,11 @@
  *  - Font Awesome documentation licensed under CC BY 3.0 -
  *    http://creativecommons.org/licenses/by/3.0/
  *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *    "Font Awesome by Dave Gandy - http://FontAwesome1.io"
  *
  *  Author - Dave Gandy
  *  ------------------------------------------------------------------------------
- *  Email: dave@fontawesome.io
+ *  Email: dave@FontAwesome1.io
  *  Twitter: http://twitter.com/byscuits
  *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
  */
@@ -27,8 +27,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome1';
-  src: url('https://pav2018-dev.netlify.com/fonts/fontawesome-webfont.eot?v=3.2.1');
-  src: url('https://pav2018-dev.netlify.com/fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('https://pav2018-dev.netlify.com/fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('https://pav2018-dev.netlify.com/fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('https://pav2018-dev.netlify.com/fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+  src: url('https://pav2018-dev.netlify.com/fonts/FontAwesome1-webfont.eot?v=3.2.1');
+  src: url('https://pav2018-dev.netlify.com/fonts/FontAwesome1-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('https://pav2018-dev.netlify.com/fonts/FontAwesome1-webfont.woff?v=3.2.1') format('woff'), url('https://pav2018-dev.netlify.com/fonts/FontAwesome1-webfont.ttf?v=3.2.1') format('truetype'), url('https://pav2018-dev.netlify.com/fonts/FontAwesome1-webfont.svg#FontAwesome1regular?v=3.2.1') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@
  * -------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: FontAwesome;
+  font-family: FontAwesome1;
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
